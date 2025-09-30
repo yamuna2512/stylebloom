@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Route , Routes } from 'react-router-dom'
 import { ProductListing } from './containers/ProductListing'
 import { ProductDetails } from './containers/ProductDetails'
 import './index.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 export const App = () => {
   return (
     
