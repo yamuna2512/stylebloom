@@ -117,6 +117,25 @@
     font-size: large;
 }
 
+.home-button {
+  display: inline-block;
+  background-color: #64748b;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  position: fixed;    
+  bottom: 40px;       
+  right: 30px;        
+}
+
+.home-button:hover {
+  background-color: #475569; /* darker on hover */
+}
+
+
 @media screen and (max-width:480px){
     .Product_details{
         height: auto;

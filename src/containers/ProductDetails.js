@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { selectedProduct ,removeSelectedProduct} from '../redux/actions/productAction';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -44,6 +44,28 @@ export const ProductDetails = () => {
           </section>
         </div>
     </section>
+
+
+    <div style={{ marginTop: "30px", textAlign: "right" }}>
+        <Link to="/">
+          <button
+            style={{
+              backgroundColor: "#333",
+              color: "white",
+              border: "none",
+              padding: "10px 20px",
+              borderRadius: "6px",
+              cursor: "pointer",
+              position: "fixed",   
+               bottom: "40px",      
+               right: "30px",
+            }}
+          >
+            ← Home
+          </button>
+        </Link>
+      </div>
+    
     
     </>
   )

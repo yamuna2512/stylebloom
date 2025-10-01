@@ -27,6 +27,12 @@ export const ProductListing = () => {
         />
       </div>
 
+       {/* <section style={{ paddingTop: '120px' }}> */}
+          
+          <h1 style={{ textAlign: 'center', fontWeight: 'bold',  fontSize: '40px',  marginBottom: '30px' }}>
+            All Products
+          </h1>
+
     {/* <section style={{paddingTop:'100px'}}> */}
       <div className='ui grid container'>
         <ProductComponent/>
